@@ -1,0 +1,521 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>My Profile</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{%  static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{%  static 'vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <link href="{%  static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{%  static 'vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{%  static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{%  static 'vendor/venobox/venobox.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{%  static 'css/style.css' %}" rel="stylesheet">
+  <link href="{%  static 'img/me.jpg' %}">
+
+  <!-- =======================================================
+  * Template Name: Personal - v2.0.1
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-tops">
+    <div class="container">
+    
+    {% if messages %}
+      {% for message in messages %}
+      
+<div class="alert alert-dark alert-dismissible fade show">
+    <strong>{{message}}!</strong>
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+</div>
+      {% endfor %}
+      {% endif %}
+
+
+
+      <h1><a href="">Varun krishna</a> </h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <h2>I'm a passionate <span>Software Test Engineer</span> with excellent Software testing and management skills.</h2>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+  <div class="social-links">
+  <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+  <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+  <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+  <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
+  <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+</div>
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Know more about me</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="{%  static 'img/me.jpg' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Hello World!</h3>
+          <p class="font-italic">
+            I have 1+ years of experience as a Software Test Engineer from Hydes software solutions. I help my clients in the testing phase of Software Development Life Cycle, where my focus will be on investigation and discovery of the bugs, defects, quality and making sure that it matches the customer requirements.
+          </p>
+            <p class="font-italic">
+            I started my career as a Support agent and got promoted as a TeamLead because of my performance and management skills. As a TeamLead I handled a team of 20. I have a 5+ years in the ITES industry and over 2.5 years experience as TeamLead. I was always intrested in the technology and fortunately got an oppurtunity to switch my career from ITEs to IT.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> varunkrishna.herokuapp.com</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 8297431475</li>
+                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Hyderabad, India</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.Tech</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> 90.krishna.varun@gmail.com</li>
+                <li><i class="icofont-rounded-right"></i> <strong>WFM:</strong> Available</li>
+              </ul>
+            </div>
+          </div>
+          <p class="font-italic">
+            When I'm not working you can find me listing to the dope songs, while browing tech information related to Machine Learning and other latest technologies...and travelling out of the blue :)
+          </p>
+          <p class="font-italic">
+            I believe that 'curiosity drives innovation!' 
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+
+    <!-- ======= Skills  ======= -->
+        <div class="skills container">
+
+      <div class="section-title">
+        <h2>Soft Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Decision Making <i class="val">98%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Leadership <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Problem Solving <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Team Work<i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Active Listning<i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Written Communication<i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Software/Testing Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Manual Testing <i class="val">98%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Automation Testing with Selenium web driver <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">HTML/CSS <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Python<i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Django Framework<i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">MS Word/Excel <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- End Skills -->
+    <!-- ======= Interests ======= -->
+
+    <!-- End Interests -->
+
+
+  </section>
+  <!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>View/Download Resume</h4>
+            <div class="resume-item">
+            
+        
+            <h5><a href="https://drive.google.com/file/d/1EwhdnWaW5DlUoAH0sG9rZoUhCOsV-k3k/view?usp=sharing">Click to view</a></h5>
+      
+         </p>
+           </div>
+           <p>
+            Looking for an opportunity to use my existing skills and experience effectively thereby playing my own small but vital role towards the growth of the organization and in the process upgrade my skills to the next higher level that fuels my own growth too with the organization.
+           </p>
+           <p>1+ year experience in Manual Testing, Automation Testing from Hydes software solutions and 2.5 years of experience as a Team Lead with Knoah solutions pvt ltd and Aegis pvt ltd.</p>
+            <ul>
+              <li>Worked from POC stage on desktop app automation</li>
+              <li>Developed and executed testing plans to find defects in software and pinpoint workflow issues.</li>
+              <li>Improved product usability by creating feature enhancement requests, as well as performing systems analysis on existing products where documentation was lacking.</li>
+              <li>Maintained a bug log to ensure quick action on highest priority issues.</li>
+              <li>Created and executed automated software test plans, test cases and test scripts to uncover, identify and document software problems and their causes.</li>
+              <li>Performed GUI testing, system testing, functional testing, black box and white box testing.</li>
+              <li>Communicated effectively with software design team, quickly gaining their respect and becoming a valued, "go-to".</li>
+            </ul>
+            </p>
+          </div>
+
+
+
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>HR Automation project</h4>
+            <h5>Client: HR automation  | Apr 2019-Mar 2020</h5>
+            <p><em>About the project:</em></p>
+            <p>
+            
+              This project helps in automating the Recruitment process by contacting clients through bot, sending automated emails to shortlisting candidates, sending custom messages over SMS and Whatsapp.
+
+            </p>
+            <p><em>Tools used in Development</em></p>
+            <p>
+            Python, Django Framework, Redis, Celery, HTML, CSS, JavaScript, Bootstrap, SendgridAPI, PostgreSQL
+            </p>
+            <p><em>Tools used in Testing</em></p>
+            <p>
+            Manual Testing, Automation Testing with Python-Selenium, Bugzilla tool, Excel2010.
+            </p>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Document Parsing testing</h4>
+            <h5>Client: ZS associates, USA  | Sept2019-Mar2020</h5>
+            <p><em>About the project:</em></p>
+            <p>
+            
+              Document Parser is a data capture solution built for today's modern cloud stack. It helps in extracting the data and move it to where it belongs in real-time. The goal of the project is to Extract data from PDF to Excel, JSON.
+
+            </p>
+            <p><em>Tools used in Development</em></p>
+            <p>
+            Python, Django Framework, HTML, CSS, JavaScript,Jquery, Bootstrap, SQL
+            </p>
+            <p><em>Tools used in Testing</em></p>
+            <p>
+            Manual Testing, Bugzilla, Excel.
+            </p>
+
+
+
+            </p>
+          </div>
+      </div>
+
+    </div>
+        <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Manual Testing <i class="val">98%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Automation Testing with Selenium web driver <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">HTML/CSS <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Python<i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Django Framework<i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">MS Word/Excel <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+  </section><!-- End Resume Section -->
+
+
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+       
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>Aspen apartments, Tarnaka, Hyderabad, India</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+              <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+              <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
+              <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>90.krishna.varun@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <p>+91 8297431475</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="." method="post" role="form" class="d-email-form mt-4">
+        {% csrf_token %}
+        <div class="form-row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <div class="validate"></div>
+          </div>
+          <div class="col-md-6 form-group">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+            <div class="validate"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+          <div class="validate"></div>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+          <div class="validate"></div>
+        </div>
+        <div class="mb-3">
+         
+          
+        <div class="text-center"><button type="submit">Send Message</button></div>
+<!--         <div class="sent-message"></div>
+        <div class="error-message"></div> -->
+      </div>
+
+      </form>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'vendor/counterup/counterup.min.js' %}"></script>
+  <script src="{% static 'vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/venobox/venobox.min.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
